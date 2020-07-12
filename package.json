@@ -1,0 +1,43 @@
+{
+  "name": "dynamic-api",
+  "version": "1.0.0",
+  "description": "Dynamic Api Node.js Server with SQL Database",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sedattanir/dynamic-api.git"
+  },
+  "keywords": [
+    "dynamic-api"
+  ],
+  "author": "Sedat TANIR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sedattanir/dynamic-api/issues"
+  },
+  "homepage": "https://github.com/sedattanir/dynamic-api#readme",
+  "dependencies": {
+    "cassandra-driver": "^4.5.2",
+    "dotenv": "^8.2.0",
+    "elasticsearch": "^16.7.1",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.9",
+    "mysql": "^2.18.1",
+    "pg-promise": "^10.5.7",
+    "redis": "^3.0.2",
+    "sqlite3": "^4.2.0",
+    "csurf": "1.11.0",
+    "cors": "2.8.5",
+    "cookie-parser": "1.4.5",
+    "express-session": "1.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  }
+}
