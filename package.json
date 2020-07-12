@@ -29,7 +29,7 @@
     "mysql": "^2.18.1",
     "pg-promise": "^10.5.7",
     "redis": "^3.0.2",
-    "sqlite3": "^4.2.0",
+    "sqlite3": "^5.0.0",
     "csurf": "1.11.0",
     "cors": "2.8.5",
     "cookie-parser": "1.4.5",
