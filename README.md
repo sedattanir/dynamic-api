@@ -1,5 +1,7 @@
 # Dynamic Api Application
 
+[![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://github.com/sedattanir/dynamic-api/issues) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+
 ## Features
  - Express v4 Routes, middlewares and a lot more
  - Some security apps
